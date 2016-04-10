@@ -24,6 +24,7 @@ After Selecting the contacts, receive the selected contacts
 @Override
 
   public void onActivityResult(int requestCode,int resultCode,Intent data){
+      
       super.onActivityResult(requestCode, resultCode, data);
   
       if(requestCode == CONTACT_PICK_REQUEST && resultCode == RESULT_OK){
