@@ -3,9 +3,7 @@ package sachinmuralig.me.simplemulticontactpicker;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by Sachin.M on 02-04-2016.
- */
+
 public class Contact implements Parcelable {
 
     public String id,name,phone,label;

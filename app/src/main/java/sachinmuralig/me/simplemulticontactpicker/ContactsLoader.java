@@ -1,6 +1,6 @@
 package sachinmuralig.me.simplemulticontactpicker;
 
-import android.app.ProgressDialog;
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
@@ -12,9 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Sachin.M on 02-04-2016.
- */
+
 public class ContactsLoader extends AsyncTask<String,Void,Void> {
 
     ContactsListAdapter contactsListAdapter;
