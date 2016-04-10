@@ -12,8 +12,11 @@ Step 1:
 Start the ContactsPickerActivity
 
 <code>
+...
+static final int CONTACT_PICK_REQUEST = 1000;
+...
 Intent intentContactPick = new Intent(MainActivity.this,ContactsPickerActivity.class);
-startActivityForResult(intentContactPick,1000);
+startActivityForResult(intentContactPick,CONTACT_PICK_REQUEST);
 </code>
 
 Step 2:
