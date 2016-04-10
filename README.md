@@ -12,11 +12,14 @@ Step 1:
 Start the ContactsPickerActivity
 
 <code>
-...
-static final int CONTACT_PICK_REQUEST = 1000;
-...
-Intent intentContactPick = new Intent(MainActivity.this,ContactsPickerActivity.class);
-startActivityForResult(intentContactPick,CONTACT_PICK_REQUEST);
+  ...
+  
+  static final int CONTACT_PICK_REQUEST = 1000;
+  
+  ...
+  
+  Intent intentContactPick = new Intent(MainActivity.this,ContactsPickerActivity.class);
+  startActivityForResult(intentContactPick,CONTACT_PICK_REQUEST);
 </code>
 
 Step 2:
@@ -24,7 +27,7 @@ Step 2:
 After Selecting the contacts, receive the selected contacts
 
 <code>
-@Override
+  @Override
 
   public void onActivityResult(int requestCode,int resultCode,Intent data){
       
